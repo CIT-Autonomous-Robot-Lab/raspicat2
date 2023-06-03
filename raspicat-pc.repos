@@ -1,0 +1,17 @@
+repositories:
+  raspicat_ros:
+    type: git
+    url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_ros.git
+    version: ros2
+  raspicat_description:
+    type: git
+    url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_description.git
+    version: ros2
+  raspicat_slam_navigation:
+    type: git
+    url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_slam_navigation.git
+    version: ros2
+  raspicat_speak2:
+    type: git
+    url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_speak2.git
+    version: main
