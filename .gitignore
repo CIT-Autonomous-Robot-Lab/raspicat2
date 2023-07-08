@@ -1,3 +1,4 @@
+src/
 devel/
 log/
 logs/
@@ -48,6 +49,9 @@ qtcreator-*
 
 # Emacs
 .#*
+
+# Vscode
+.vscode
 
 # Catkin custom files
 CATKIN_IGNORE
