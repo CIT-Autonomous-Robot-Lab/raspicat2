@@ -2,7 +2,7 @@ repositories:
   RaspberryPiMouse:
     type: git
     url: git@github.com:CIT-Autonomous-Robot-Lab/RaspberryPiMouse.git
-    version: feature/support-kernel-5.12
+    version: ros2
   raspicat_ros:
     type: git
     url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_ros.git
