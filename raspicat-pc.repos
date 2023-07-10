@@ -15,3 +15,7 @@ repositories:
     type: git
     url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_speak2.git
     version: main
+  raspicat_setup_scripts:
+    type: git
+    url: git@github.com:CIT-Autonomous-Robot-Lab/raspicat_setup_scripts.git
+    version: ros2
