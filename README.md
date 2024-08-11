@@ -3,6 +3,7 @@
 ## Install vcstool
 
 ```
+sudo apt update
 sudo apt install python3-vcstool
 ```
 
@@ -11,15 +12,7 @@ sudo apt install python3-vcstool
 * Install
 
 ```
-git clone git@github.com:CIT-Autonomous-Robot-Lab/raspicat2.git $HOME/raspicat2
-grep -q "source $HOME/raspicat2/install/setup.bash" ~/.bashrc || echo "source $HOME/raspicat2/install/setup.bash" >> ~/.bashrc
-grep -q "export RASPICAT2_WS=$HOME/raspicat2" ~/.bashrc || echo "export RASPICAT2_WS=$HOME/raspicat2" >> ~/.bashrc
-cd $RASPICAT2_WS && mkdir src
-vcs import src < raspicat.repos --debug
-rosdep update
-rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
-colcon build --symlink-install
-source $HOME/.bashrc
+bash <(curl -s https://raw.githubusercontent.com/CIT-Autonomous-Robot-Lab/raspicat2/main/install.sh)
 ```
 
 * Update
